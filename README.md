@@ -1,20 +1,57 @@
-# Negotiation-chatbot-using-pre-trained-AI-model
+# Negotiable Chatbot using Pre-Trained AI Model (Google Gemini)
 
+We created this project as a part of the **Artificial Intelligence and Machine Learning** course.
 
-This repository contains a chatbot that simulates a negotiation process between a user and the bot for product pricing. The bot can accept, reject, or counteroffer based on the user's inputs. The chatbot is powered by Google's Generative AI model (Gemini) and offers a dynamic conversation experience for price negotiation.
+# Contents
+- Project Description
+- Basic Structure
+  - Functionalities
+  - Flowchart
+  - Code Structure
+  - Screenshots of the Interface
+- Tech Stack
+- How to Run
+- Contributors
 
-## Features
-- Negotiation based on user-provided offers.
-- Accepts offers within a reasonable range, rejects low offers, and counteroffers when necessary.
-- Conversational responses are generated using Google's pre-trained Generative AI model, enhancing user interaction.
+# Project Description
 
-## Requirements
+This project simulates a negotiation process between a user and a chatbot for product pricing. The bot can accept, reject, or counteroffer based on the user's inputs. It is powered by Google's Generative AI model (Gemini), providing dynamic responses during the negotiation process. The main aim is to showcase the integration of machine learning models in creating interactive applications with complex business logic, like price negotiation.
 
-Before you start, ensure you have the following installed:
+# Basic Structure
 
-- Python 3.x
-- [Google Generative AI SDK](https://developers.generativeai.google) installed.
+## Functionalities
+
+- **Admin**
+  - Admin can log in.
+  - Admin can set the initial price for the product.
+  - Admin can view the chat history.
+  - Admin can adjust the negotiation algorithm parameters (counteroffer margins).
+  - Admin can log out.
   
-  You can install the Google Generative AI package using pip:
-  ```bash
+- **User**
+  - User can initiate the negotiation process.
+  - User can provide an offer.
+  - User can accept or reject the bot’s counteroffer.
+  - User can finalize the deal when both parties agree on the price.
+  - User can log out.
+
+- **Bot**
+  - The bot provides an initial offer.
+  - The bot can accept reasonable offers.
+  - The bot can reject lowball offers.
+  - The bot can make counteroffers based on predefined rules.
+  
+
+
+
+
+
+
+
+# How to Run
+
+1. Clone the GitHub repository:
+   ```bash
+   git clone https://github.com/yourusername/negotiable-chatbot.git
+   cd negotiable-chatbot
 
